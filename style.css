@@ -17,6 +17,14 @@ nav{
     color: white;
 }
 
+.hero-text h1{
+    font-weight: 300;
+}
+
+.hero-text span{
+    font-weight: 900;
+}
+
 .hero-figure button{
     padding: 0.9rem 2rem;
     border: none;
@@ -24,7 +32,12 @@ nav{
 }
 
 .hero-figure .col{
-    padding: 5rem;
+    padding: 3rem;
+}
+
+.hero-figure img{
+    position: relative;
+    top: -3rem;
 }
 
 .features{
