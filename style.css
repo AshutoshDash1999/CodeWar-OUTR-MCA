@@ -3,6 +3,30 @@ html{
     margin: 0;
 }
 
+nav{
+    padding: 2px;
+    border-radius: 25px 5px 25px 5px;
+    color: white;
+    padding-left: 3rem;
+}
+
+.hero-figure{
+    background: url("images/hero-figure-bg.png") center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+}
+
+.hero-figure button{
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 40px;
+}
+
+.hero-figure .col{
+    padding: 5rem;
+}
+
 .features{
     padding: 7rem;
 }
