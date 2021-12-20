@@ -1,0 +1,99 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.overview{
+    background: url("images/overview-bg.png") center center no-repeat;
+    background-size: cover;
+    padding: 9rem;
+}
+
+.overview h2{
+    position: relative;
+    top: -3rem;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.overview-span{
+    font-weight: 900;
+}
+
+.overview img{
+    border-radius: 5px;
+}
+
+.ask-us{
+    text-align: center;
+}
+
+.ask-us .content{
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.ask-us .content h2{
+    font-size: 2.3rem;
+}
+
+.ask-us .content input, textarea{
+    padding: 0.6rem;
+    margin: 1rem;
+    border: 1px solid #eeeded;
+}
+
+.ask-us .content button{
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #d43b23;
+    border: none;
+}
+
+.contact-info .row .col{
+    text-align: center;
+    padding: 6rem 1rem;
+    background: #212121;
+    color: #fff;
+} 
+
+.contact-info .row .email{
+    background: linear-gradient(60deg, #c0474c, #4e224e);
+}
+
+.subscribe{
+    background: #eeeeee;
+    text-align: center;
+    padding: 3rem;
+}
+
+.subscribe .content{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.subscribe .content input{
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    border: none;
+    width: 60%;
+}
+
+.subscribe .content button{
+    padding: 0.8rem 1.8rem;
+    background: #d43b23;
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+}
+
+footer{
+    background: #212121;
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
