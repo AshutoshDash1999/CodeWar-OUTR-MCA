@@ -3,6 +3,43 @@ html{
     margin: 0;
 }
 
+.features{
+    padding: 7rem;
+}
+
+.features .row{
+    padding: 3rem;
+}
+
+.features img{
+    height: 600px;
+}
+
+.pricing{
+    padding: 6rem;
+    background: #fdecea;
+}
+
+.pricing h2{
+    font-weight: 900;
+}
+
+.pricing .col{
+    text-align: center;
+}
+
+.pricing .card-body{
+    padding: 2rem;
+}
+
+.pricing .col button{
+    color: #fff;
+    background: #d43b23;
+    border: none;
+    border-radius: 30px;
+    padding: 0.7rem 2.5rem;
+}
+
 .overview{
     background: url("images/overview-bg.png") center center no-repeat;
     background-size: cover;
